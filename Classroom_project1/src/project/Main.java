@@ -1,6 +1,6 @@
 package project;
 
-import project.handler.Handler;
+import project.controller.Handler;
 
 public class Main {
     public static void main(String[] args) {
