@@ -5,6 +5,6 @@ import project.models.Bet;
 import java.util.ArrayList;
 
 public class Storage {
-    public static ArrayList<Bet> bets = new ArrayList<>();
+    public final static ArrayList<Bet> bets = new ArrayList<>();
 
 }

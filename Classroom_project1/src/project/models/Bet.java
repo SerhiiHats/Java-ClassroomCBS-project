@@ -9,23 +9,35 @@ public class Bet {
         this.risk = risk;
     }
 
+    @Override
+    public String toString() {
+        return "Bet{" +
+                "valible=" + valible +
+                ", risk=" + risk +
+                '}';
+    }
+
     public Bet() {
 
     }
 
     public void setValible(int valible) {
+
         this.valible = valible;
     }
 
     public void setRisk(double risk) {
+
         this.risk = risk;
     }
 
     public int getValible() {
+
         return valible;
     }
 
     public double getRisk() {
+
         return risk;
     }
 }
